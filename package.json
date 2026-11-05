@@ -1,0 +1,22 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Aayush kumar Shrivastav",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
